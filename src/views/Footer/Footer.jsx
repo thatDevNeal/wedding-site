@@ -1,20 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Container, Row, Col } from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
 import * as SocialIcons from "components/SocialIcons";
 
 import "./Footer.scss";
 
-const Footer = ({ frontmatter }) => {
+const Footer = ({frontmatter}) => {
   if (!frontmatter) {
     return null;
   }
 
-  const { 
+  const {
     copyright,
-    social: { facebook, github, linkedin, instagram }
-   } = frontmatter;
+    social: {facebook, github, linkedin, instagram}
+  } = frontmatter;
 
   return (
     <footer className="footer py-3">
@@ -23,36 +23,39 @@ const Footer = ({ frontmatter }) => {
           <Col className="copyright credit">
             <div className="nameAndLink">
               ©&nbsp;
-              <a 
-                href="https://caitlinfloyd.com/"
+              <a
+                href="https://nealbharucha.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Caitlin Floyd
+                Neal Bharucha
               </a>
               , 2021
             </div>
             <div className="socials">
-              {github ? <SocialIcons.Github className="footerSocial" userName={github} /> : null}
-              {linkedin ? <SocialIcons.Linkedin className="footerSocial" userName={linkedin} /> : null}
+              {github ? <SocialIcons.Github className="footerSocial" userName={github}/> : null}
+              {linkedin ?
+                <SocialIcons.Linkedin className="footerSocial" userName={linkedin}/> : null}
             </div>
           </Col> {/* copyright */}
           <Col className="anaIsabel credit">
             <div className="nameAndLink">
               Photos by&nbsp;
-              <a 
-                href="https://anaisabelphotography.com/"
+              <a
+                href="https://rebeccalori.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Ana Isabel Photography
+                Rebecca Lori Photography
               </a>
             </div>
             <div className="socials">
-              {instagram ? <SocialIcons.Instagram className="footerSocial" userName={instagram} /> : null}
-              {facebook ? <SocialIcons.Facebook className="footerSocial" userName={facebook} /> : null}
+              {instagram ?
+                <SocialIcons.Instagram className="footerSocial" userName={instagram}/> : null}
+              {facebook ?
+                <SocialIcons.Facebook className="footerSocial" userName={facebook}/> : null}
             </div>
-          </Col> {/* anaIsabel */}
+          </Col>
         </Row>
       </Container>
     </footer>

@@ -1,9 +1,5 @@
 ---
-copyright: "© Caitlin Floyd, 2020"
-social: {
-    facebook: "AnaIsabelPhoto",
-    instagram: "anaisabelphotography",
-    linkedin: "caitlinfloyd",
-    github: "cafloyd/", 
-}
+copyright: "©"
+social: { facebook: "rebeccaloriphotography", instagram: "rebeccaloriphotography", linkedin: "
+nealbharucha", github: "thatGuyNeal/", }
 ---

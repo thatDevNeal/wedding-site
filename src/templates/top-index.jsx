@@ -131,7 +131,7 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
 
   return (
     <>
-      <SEO lang={langKey} title="Caitlin & Justin" keywords={keywords} description={description} />
+      <SEO lang={langKey} title="Shikha and Neal" keywords={keywords} description={description} />
       <Navbar
         anchors={anchors}
         frontmatter={navBarNode.frontmatter}
