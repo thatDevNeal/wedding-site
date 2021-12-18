@@ -1,6 +1,6 @@
 ---
 header: "Shikha & Neal"
-imageFileName: "header-bg.jpg"
+imageFileName: "shikha-neal-proposal-36.jpg"
 jumpToAnchor: "Photos"
 jumpToAnchorText: "See the Pictures"
 ---
