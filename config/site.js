@@ -1,11 +1,11 @@
 module.exports = {
-  title: "Caitlin & Justin",
+  title: "Shikha & Neal",
   keywords: [
-    "Caitlin Floyd",
-    "Justin Vazquez"
+    "Shikha Patel",
+    "Neal Bharucha"
   ],
-  description: "Wedding website of Caitlin Floyd and Justin Vazquez",
-  author: "Caitlin Floyd",
+  description: "Wedding website of Shikha Patel and Neal Bharucha",
+  author: "Caitlin Floyd & Neal Bharucha",
   trackingId: "UA-119418003-5",
   defaultLang: "en",
 };

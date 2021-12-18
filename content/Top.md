@@ -1,7 +1,7 @@
 ---
-header: "Caitlin & Justin"
+header: "Shikha & Neal"
 subheader: "We're getting married!"
-imageFileName: "header-bg.png"
+imageFileName: "shikha-neal-portraits-57.jpg"
 jumpToAnchor: "Ceremony"
 jumpToAnchorText: "Watch the Ceremony"
 ---

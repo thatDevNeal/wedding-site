@@ -1,4 +1,4 @@
 ---
-brand: "Caitlin & Justin"
+brand: "Shikha & Neal"
 menuText: "Menu "
 ---
