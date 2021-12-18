@@ -2,14 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-import { Container, Card } from "react-bootstrap";
+import {Container, Card} from "react-bootstrap";
 import Image from "components/Image";
 import "./ImageCard.scss";
 
-const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
+const ImageCard = ({className, imageFileName, imageAlt, header, subheader, extraInfo}) => {
   return (
     <Card className={clsx("image-card bg-dark text-white text-center", className)}>
-      <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader} />
+      <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader}/>
       <Card.ImgOverlay className="no-padding">
         <Container>
           <div className="intro-text">
@@ -18,16 +18,16 @@ const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extr
               <div className="intro-lead-in text-uppercase">{subheader}</div>
               <div className="text-uppercase">
                 <div className="date">
-                  Dec. 13, 2020
-                </div> {/* date */}
-                <div className="time">
-                  2pm EST
-                </div> {/* time */}
+                  November 14, 2022
+                </div>
+                {/* date */}
               </div>
-            </div> {/* intro-text-no-button */}
-            <br />
+            </div>
+            {/* intro-text-no-button */}
+            <br/>
             {extraInfo}
-          </div> {/* intro-text */}
+          </div>
+          {/* intro-text */}
         </Container>
       </Card.ImgOverlay>
     </Card>

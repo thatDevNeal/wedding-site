@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import {graphql} from "gatsby";
 
 import Navbar from "views/Navbar";
 import Top from "views/Top";
@@ -107,35 +107,35 @@ export const query = graphql`
   }
 `;
 
-const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } }) => {
+const IndexPage = ({data, pathContext: {langKey, defaultLang, langTextMap}}) => {
   const {
     site: {
-      siteMetadata: { keywords, description },
+      siteMetadata: {keywords, description},
     },
-    allMarkdownRemark: { nodes },
+    allMarkdownRemark: {nodes},
   } = data;
 
-  const { topNode, navBarNode, anchors, footerNode, sectionsNodes } = breakDownAllNodes(nodes);
+  const {topNode, navBarNode, anchors, footerNode, sectionsNodes} = breakDownAllNodes(nodes);
 
   let langSelectorPart;
   if (langTextMap != null && Object.keys(langTextMap).length > 1) {
     langSelectorPart = (
-      <LanguageSelector langKey={langKey} defaultLang={defaultLang} langTextMap={langTextMap} />
+      <LanguageSelector langKey={langKey} defaultLang={defaultLang} langTextMap={langTextMap}/>
     );
   }
 
   return (
     <>
-      <SEO lang={langKey} title="Caitlin & Justin" keywords={keywords} description={description} />
+      <SEO lang={langKey} title="Shikha & Neal" keywords={keywords} description={description}/>
       <Navbar
         anchors={anchors}
         frontmatter={navBarNode.frontmatter}
         extraItems={langSelectorPart}
       />
-      <Top frontmatter={topNode.frontmatter} />
+      <Top frontmatter={topNode.frontmatter}/>
       {
         // dynamically import sections
-        sectionsNodes.map(({ frontmatter, fields: { fileName } }, ind) => {
+        sectionsNodes.map(({frontmatter, fields: {fileName}}, ind) => {
           const sectionComponentName = fileNameToSectionName(fileName);
           const SectionComponent = Sections[sectionComponentName];
 
@@ -148,7 +148,7 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
           ) : null;
         })
       }
-      <Footer frontmatter={footerNode.frontmatter} />
+      <Footer frontmatter={footerNode.frontmatter}/>
     </>
   );
 };

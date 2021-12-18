@@ -37,7 +37,7 @@ const MyNavbar = ({ anchors, frontmatter, extraItems }) => {
   useWindowOnScroll(handleWindowScroll);
 
   return (
-    <Navbar
+  <Navbar
       className={clsx("navbar-root", { "navbar-shrink": shrink })}
       expand="lg"
       fixed="top"
