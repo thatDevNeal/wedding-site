@@ -28,6 +28,19 @@
   }
 }
 
+.reactButtonTitle {
+  margin: auto !important;
+  color: black !important;
+}
+
+@media (max-width: 768px) {
+  .reactButtonTitle {
+    margin: auto;
+    font-size: 14px;
+    color: black;
+  }
+}
+
 
 @media (max-width: 768px) {
   .hero-button {
