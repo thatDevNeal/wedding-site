@@ -1,7 +1,7 @@
 ---
-anchor: "Message"
-header: "Dear Loved Ones,"
-subheader: ""
+anchor: "Reservations"
+header: "Reservations"
+subheader: "Cancun, Mexico || Shikha & Neal"
 services: [
   {
     iconName: "ShoppingCartIcon",
