@@ -23,7 +23,7 @@ const TimelineItem = ({
     <li className={liClassName}>
       <div className="timeline-image">
           <Image
-            className="rounded-circle img-fluid"
+            className="rounded-circle img-fluid gatsby-image-override"
             fileName={imageFileName}
             alt={imageAlt || header || subheader}
           />
