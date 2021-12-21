@@ -2,26 +2,25 @@ import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import Countdown from 'react-countdown';
-import { CopyToClipboard } from "react-copy-to-clipboard";
-import Notifications, { notify } from "react-notify-toast";
+import {CopyToClipboard} from "react-copy-to-clipboard";
+import Notifications, {notify} from "react-notify-toast";
 
 
-import { Row, Button } from "react-bootstrap";
+import {Row, Button} from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
-import Youtube from "content/assets/images/portfolio/Youtube.png";
-import YoutubeHover from "content/assets/images/portfolio/YoutubeHover.png";
+import Youtube from "content/assets/images/portfolio/Youtube.jpg";
 import "./Portfolio.scss";
 
-const Portfolio = ({ className, frontmatter }) => {
+const Portfolio = ({className, frontmatter}) => {
   if (!frontmatter) {
     return null;
   }
 
-  const { anchor, header, subheader } = frontmatter;
+  const {anchor, header, subheader} = frontmatter;
 
-  const copiedToClipboard= () => {
-    const alertColor = { background: "#9ebc9f", text: "white" };
+  const copiedToClipboard = () => {
+    const alertColor = {background: "#DFB2A9", text: "white"};
     notify.show(
       "Hashtag copied to clipboard. Take a selfie and tag us on social media!",
       "custom",
@@ -30,46 +29,41 @@ const Portfolio = ({ className, frontmatter }) => {
     );
   }
 
+  const slideImages = [
+    {
+      url: "content/assets/images/shikha-neal-portraits-4.jpg",
+      caption: "Slide 1"
+    },
+    {
+      url: "content/assets/images/shikha-neal-proposal-36.jpg",
+      caption: "Slide 2"
+    }
+  ]
+
   const Completionist = () => {
     return (
       <span className="finishedCountdown">
         <div className="countdownIntro">
             The ceremony is now live!
           </div>
-          <div className="joinButtonWrapper">
-            <div>
-              <a
-                href="https://youtu.be/EXOL-3JyXMI"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Button size="xl" variant="primary" className="text-uppercase main-button join-now">
-                  <p className="buttonTitle">Join Now!</p>
-                </Button> <br/>
-              </a>
-            </div>
-          </div> {/* joinButtonWrapper */}
-          <div className="vendors">
+        {/* joinButtonWrapper */}
+        <div className="vendors">
             <p>
               Hosted at
               <a
-                href="https://www.strathmore.org/mansion"
+                href="https://www.hardrockhotels.com/cancun/"
                 className="countdownLinks"
                 target="_blank"
                 rel="noreferrer"
               >
-                the Mansion at Strathmore
+                Hard Rock Hotel in Cancun
               </a>
             </p>
             <p>
-              Officiated by 
-              <a 
-                href="https://elleweds.wixsite.com/elleweds"
-                className="countdownLinks"
-                target="_blank"
-                rel="noreferrer">
-                  Erren Lee
-              </a>
+              Officiated by
+              <span className="text-primary">
+                {" "} A close relation Pundit
+              </span>
             </p>
             <p>
               Music provided by
@@ -79,31 +73,32 @@ const Portfolio = ({ className, frontmatter }) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Carol Anne Bosco
+                DJ
               </a>
             </p>
             <p>
               Stay tuned for photos by
               <a
-                href="https://anaisabelphotography.com/"
+                href="https://fedesalmeron.com/"
                 className="countdownLinks"
                 target="_blank"
                 rel="noreferrer"
               >
-                Ana Isabel
+                Saptapadi Studio
               </a>
               !
             </p>
-          </div> {/* vendors */}
+          </div>
+        {/* vendors */}
       </span> // finishedCountdown
     )
   }
 
-      
-  const renderer = ({ days, hours, minutes, seconds, completed }) => {
+
+  const renderer = ({days, hours, minutes, seconds, completed}) => {
     if (completed) {
       // Render a completed state
-      return <Completionist />;
+      return <Completionist/>;
     }
     if ((days === 0 && hours === 0 && minutes === 15 && seconds === 0) || (days === 0 && hours === 0 && minutes < 15)) {
       return <div>
@@ -115,7 +110,7 @@ const Portfolio = ({ className, frontmatter }) => {
             <div className="countdownSection">
               <div className="countWrapper">
                 <div className="count">
-                  {days} 
+                  {days}
                 </div>
                 <div className="unit">
                   days
@@ -123,7 +118,7 @@ const Portfolio = ({ className, frontmatter }) => {
               </div>
               <div className="countWrapper">
                 <div className="count">
-                  {hours} 
+                  {hours}
                 </div>
                 <div className="unit">
                   hours
@@ -133,7 +128,7 @@ const Portfolio = ({ className, frontmatter }) => {
             <div className="countdownSection">
               <div className="countWrapper">
                 <div className="count">
-                  {minutes} 
+                  {minutes}
                 </div>
                 <div className="unit">
                   minutes
@@ -141,39 +136,13 @@ const Portfolio = ({ className, frontmatter }) => {
               </div>
               <div className="countWrapper">
                 <div className="count">
-                  {seconds} 
+                  {seconds}
                 </div>
                 <div className="unit">
                   seconds
                 </div>
               </div>
             </div>
-          </div>
-          <div className="joinButtonWrapper">
-            <div>
-              <a
-                href="https://youtu.be/EXOL-3JyXMI"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Button size="xl" variant="primary" className="text-uppercase main-button join-now">
-                  <p className="buttonTitle">Join Now!</p>
-                </Button> <br/>
-              </a>
-            </div>
-          </div>
-          <div className="vendors">
-            <p>
-              Pre-ceremony music provided by
-              <a
-                href="http://cellobosco.com/"
-                className="countdownLinks"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Carol Anne Bosco
-              </a>
-            </p>
           </div>
         </div>
       </div>
@@ -183,92 +152,121 @@ const Portfolio = ({ className, frontmatter }) => {
         <div className="countdownAndTanuki">
           <div className="countdownIntro">
             The ceremony will begin in
-          </div> {/* countdownIntro */}
+          </div>
+          {/* countdownIntro */}
           <div className="countdownWrapper">
             <div className="countdownSection">
               <div className="countWrapper">
                 <div className="count">
                   {days} 
-                </div> {/* count */}
+                </div>
+                {/* count */}
                 <div className="unit">
                   days
-                </div> {/* unit */}
-              </div> {/* countWrapper */}
+                </div>
+                {/* unit */}
+              </div>
+              {/* countWrapper */}
               <div className="countWrapper">
                 <div className="count">
                   {hours} 
-                </div> {/* count */}
+                </div>
+                {/* count */}
                 <div className="unit">
                   hours
-                </div> {/* unit */}
-              </div> {/* countWrapper */}
-            </div> {/* countdownSection */}
+                </div>
+                {/* unit */}
+              </div>
+              {/* countWrapper */}
+            </div>
+            {/* countdownSection */}
             <div className="countdownSection">
               <div className="countWrapper">
                 <div className="count">
                   {minutes} 
-                </div> {/* count */}
+                </div>
+                {/* count */}
                 <div className="unit">
                   minutes
-                </div> {/* unit */}
-              </div> {/* countWrapper */}
+                </div>
+                {/* unit */}
+              </div>
+              {/* countWrapper */}
               <div className="countWrapper">
                 <div className="count">
                   {seconds} 
-                </div> {/* count */}
+                </div>
+                {/* count */}
                 <div className="unit">
                   seconds
-                </div> {/* unit */}
-              </div> {/* countWrapper */}
-            </div> {/* countdownSection */}
-          </div> {/* countdownWrapper */}
+                </div>
+                {/* unit */}
+              </div>
+              {/* countWrapper */}
+            </div>
+            {/* countdownSection */}
+          </div>
+          {/* countdownWrapper */}
           <div className="instaWrapper">
             <p className="checkOut">
               Check out 
-              <a 
-                href="https://www.instagram.com/princess_tanuki/"
+              <a
+                href="https://rebeccalori.com/2021/11/20/hoboken-pier-a-november-proposal/"
                 className="spacedCountdownLinks"
                 target="_blank"
                 rel="noreferrer"
               >
-                  Tanuki&apos;s Instagram
-              </a>
-              while you wait!
+                  this blog on Shikha & Neals Proposal
+              </a>!
+              <br/>
+              <CopyToClipboard text="#ShikhaAndNeal2022">
+                <button
+                  type="button"
+                  onClick={copiedToClipboard}
+                  className="invisibleButton text-muted text-primary"
+                >
+                  <b>#ShikhaAndNeal2022</b>
+                </button>
+              </CopyToClipboard>
+              to share the memories!
             </p>
-          </div> {/* instaWrapper */}
-        </div> {/* countdownAndTanuki */}
+          </div>
+          {/* instaWrapper */}
+        </div>
+      {/* countdownAndTanuki */}
       </span>;
   };
 
   return (
     <div className="outerWrapper">
       <PageSection className={clsx("portfolio-section", className)} id={anchor}>
-        <Notifications options={{zIndex: 200, top: '50px'}} />
+        <Notifications options={{zIndex: 200, top: '50px'}}/>
         <Row className="justify-content-center ceremony-header">
           <SectionHeader header={header} subheader={subheader}/>
-          <CopyToClipboard text="#CaitlinAndJustin2020">
+          <CopyToClipboard text="#ShikhaAndNeal2022">
             <button
               onClick={copiedToClipboard}
               id="copy-to-clipboard"
               variant="primary"
-              type="button" 
+              type="button"
               size="xl"
               className="hashtag"
             >
-              #CaitlinAndJustin2020
+              #ShikhaAndNeal2022
             </button>
           </CopyToClipboard>
         </Row>
         <div className="countdownAndVideoDiv">
           <Row>
             <Countdown
-              date='2020-12-13T14:00:00-05:00'
+              date='2022-11-14T10:00:00-05:00'
               renderer={renderer}
             />
           </Row>
+          {/* TODO: react slideshow */}
           <Row>
             <a
-              href="https://www.youtube.com/watch?v=EXOL-3JyXMI&feature=emb_err_woyt"
+              href="https://www.youtube.com/watch?v=Vtvb0uDw7Uw"
               target="_blank"
               rel="noreferrer"
               className="youtubeLink"
@@ -276,26 +274,29 @@ const Portfolio = ({ className, frontmatter }) => {
               <div
                 className="container"
               >
-                <img 
-                  src={Youtube} 
-                  alt="youtubeLink" 
+                <img
+                  src={Youtube}
+                  alt="youtubeLink"
                   className="image"
-                  width="560" 
+                  width="560"
                   height="auto"
                 />
                 <div className="middle">
-                  <img 
-                    src={YoutubeHover} 
-                    alt="youtubeLink" 
+                  <img
+                    src={Youtube}
+                    alt="youtubeLink"
                     className="imageHover"
-                    width="560" 
+                    width="560"
                     height="auto"
                   />
-                </div> {/* middle */}
-              </div> {/* container */}
+                </div>
+                {/* middle */}
+              </div>
+              {/* container */}
             </a>
           </Row>
-        </div> {/* countdownAndVideoDiv */}
+        </div>
+        {/* countdownAndVideoDiv */}
       </PageSection>
     </div>
   );

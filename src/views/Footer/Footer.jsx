@@ -3,6 +3,18 @@ import PropTypes from "prop-types";
 
 import {Container, Row, Col} from "react-bootstrap";
 import * as SocialIcons from "components/SocialIcons";
+import {CopyToClipboard} from "react-copy-to-clipboard";
+import {notify} from "react-notify-toast";
+
+const copiedToClipboard = () => {
+  const alertColor = {background: "#9ebc9f", text: "white"};
+  notify.show(
+    "Hashtag copied to clipboard. Take a selfie and tag us on social media!",
+    "custom",
+    5000,
+    alertColor
+  );
+}
 
 const Footer = ({frontmatter}) => {
   return (
@@ -10,7 +22,15 @@ const Footer = ({frontmatter}) => {
       <Container>
         <Row className="align-items-center text-center">
           <Col>
-            Shikha Weds Neal in Cancun, Mexico
+            <CopyToClipboard text="#ShikhaAndNeal2022">
+              <button
+                type="button"
+                onClick={copiedToClipboard}
+                className="invisibleButton text-muted text-primary"
+              >
+                <b>#ShikhaAndNeal2022</b>
+              </button>
+            </CopyToClipboard>
           </Col>
         </Row>
       </Container>

@@ -39,6 +39,7 @@
     "react-helmet": "^6.0.0",
     "react-notify-toast": "^0.5.1",
     "react-scroll": "^1.7.16",
+    "react-slideshow-image": "^3.6.0",
     "reactjs-popup": "^2.0.4",
     "sass": "^1.45.0",
     "throttle-debounce": "^2.1.0"
