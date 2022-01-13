@@ -50,7 +50,7 @@ const Top = ({frontmatter}) => {
                 <div>
                   <FontAwesomeIcon icon={["fab", "google"]} className="calIcon"/>
                   <a
-                    href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0AURL:http://carlsednaoui.github.io/add-to-calendar-buttons/generator/generator.html%0ADTSTART:20221112T230000Z%0ADTEND:20221115T060000Z%0ASUMMARY:Shikha%20and%20Neal%20Wedding%20Events%0ADESCRIPTION:Shikha%20and%20Neal%20overall%20event%20dates%20for%20their%20wedding%20in%20Cancun,%20Mexico!%20More%20information%20found%20on%20the%20website.%0ALOCATION:Cancun,%20Mexico%0AEND:VEVENT%0AEND:VCALENDAR"
+                    href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0AURL:https://nealandshikha.netlify.app/%0ADTSTART:20221112T230000Z%0ADTEND:20221115T060000Z%0ASUMMARY:Shikha%20and%20Neal%20Wedding%20Events%0ADESCRIPTION:Shikha%20and%20Neal%20overall%20event%20dates%20for%20their%20wedding%20in%20Cancun,%20Mexico!%20More%20information%20found%20on%20the%20website.%0ALOCATION:Cancun,%20Mexico%0AEND:VEVENT%0AEND:VCALENDAR"
                     target="_blank"
                     rel="noreferrer"
                   >
