@@ -35,7 +35,7 @@ const Team = ({className, frontmatter}) => {
               to already have nearly everything we need for this new chapter together. <br/>
               However, for friends and family who have expressed an interest, we have created a gift
               registry for your convenience
-              here: {"<Wedding Registry Goes Here>"} {/* TODO: include wedding registry link here */}
+              here: <b>Sorry, please check back later for the registry!</b> {/* TODO: include wedding registry link here */}
             </p>
           </Col>
         </Row>

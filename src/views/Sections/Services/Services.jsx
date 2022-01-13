@@ -21,7 +21,7 @@ const Services = ({className, frontmatter}) => {
       <Row>
         <div className="message">
           <p className="paragraph1">
-            2020 and 2021 has been a challenging, but for us, one good thing that has happened has
+            2020 and 2021 has been challenging, but for us, one good thing that has happened has
             been getting engaged. We know we are living in an uncertain time, but Shikha and Neal
             have planned to get married in Cancun, Mexico!
           </p> {/* paragraph1 */}
