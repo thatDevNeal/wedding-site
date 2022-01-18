@@ -7,3 +7,4 @@
 import "fontsource-allura";
 import "fontsource-parisienne";
 import "@fontsource/dancing-script"
+import "@fontsource/euphoria-script"
