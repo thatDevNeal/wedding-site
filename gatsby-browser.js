@@ -6,3 +6,4 @@
 
 import "fontsource-allura";
 import "fontsource-parisienne";
+import "@fontsource/dancing-script"
