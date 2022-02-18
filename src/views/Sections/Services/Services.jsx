@@ -33,6 +33,14 @@ const Services = ({className, frontmatter}) => {
             have
             a refund policy, but they are reserved until mid-June of 2022. This means there is time
             for everyone to book their rooms.
+            <b><i>Please be sure your passport is valid for at least 6 months from the date of our
+              wedding.
+              It is <a
+                href="https://www.rushmypassport.com/blog/passport-validity-for-top-destinations/#:~:text=If%20you%E2%80%99re%20flying,date%20you%20arrive."
+                target="_blank" rel="noopener noreferrer"><u>a
+                law now</u></a> where your passport must be valid for at least 6 months to travel
+              internationally. This means your passport must valid until, at minimum, June
+              2023! </i></b>
           </p> {/* paragraph2 */}
           <p className="paragraph3">
             We hope to see you soon, whether its at the events or down the road when we can get
