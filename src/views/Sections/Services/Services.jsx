@@ -37,7 +37,7 @@ const Services = ({className, frontmatter}) => {
               wedding.
               It is <a
                 href="https://www.rushmypassport.com/blog/passport-validity-for-top-destinations/#:~:text=If%20you%E2%80%99re%20flying,date%20you%20arrive."
-                target="_blank" rel="noopener noreferrer"><u>a
+                target="_blank" rel="noopener noreferrer" className="reactButtonTitle"><u>a
                 law now</u></a> where your passport must be valid for at least 6 months to travel
               internationally. This means your passport must valid until, at minimum, June
               2023! </i></b>
