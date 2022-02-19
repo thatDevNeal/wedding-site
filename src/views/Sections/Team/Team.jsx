@@ -17,11 +17,9 @@ const Team = ({className, frontmatter}) => {
   } = frontmatter;
 
   return (<div>
-    <PageSection className={className} id={anchor}>
+    <PageSection id={anchor}>
       <Notifications options={{zIndex: 200, top: '50px'}}/>
-      <Row>
-        <SectionHeader header={rootHeader} subheader={rootSubHeader}/>
-      </Row>
+      <SectionHeader header={rootHeader} subheader={rootSubHeader}/>
       <Row className="charities">
         <Col lg={8} className="mx-auto text-center">
           <p className="large text-muted">

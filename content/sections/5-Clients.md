@@ -1,6 +1,7 @@
 ---
-# anchor: "Ceremony"
-header: "Ceremony"
+
+anchor: "Events"
+header: "Wedding Events"
 subheader: "We hope you can join us, whether live at the time of the event, or afterwards."
 clients: [
   {

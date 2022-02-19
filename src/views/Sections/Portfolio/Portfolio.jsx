@@ -29,17 +29,6 @@ const Portfolio = ({className, frontmatter}) => {
     );
   }
 
-  const slideImages = [
-    {
-      url: "content/assets/images/shikha-neal-portraits-4.jpg",
-      caption: "Slide 1"
-    },
-    {
-      url: "content/assets/images/shikha-neal-proposal-36.jpg",
-      caption: "Slide 2"
-    }
-  ]
-
   const Completionist = () => {
     return (
       <span className="finishedCountdown">
@@ -73,7 +62,7 @@ const Portfolio = ({className, frontmatter}) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                DJ
+                DJ Amplifire
               </a>
             </p>
             <p>
@@ -84,7 +73,7 @@ const Portfolio = ({className, frontmatter}) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Saptapadi Studio
+                Pervez Taufiq Photography
               </a>
               !
             </p>
