@@ -75,6 +75,16 @@ ORDER: Base + typography > general layout + grid > page layout > components
   position: relative;
   height: 100%;
   width: 100%;
+  transition: all 0ms;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1.5rem 3rem rgba($color-black, .25);
+  }
+
+  &::after {
+    transition: all 0ms;
+  }
 
   &__side {
     //height: 100%;
