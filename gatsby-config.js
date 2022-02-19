@@ -22,7 +22,7 @@ module.exports = {
         short_name: "Shikha & Neal",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#9ebc9f",
+        theme_color: "#DFB2A9",
         display: "minimal-ui",
         icon: "content/assets/images/favicon.png",
       },
