@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import clsx from "clsx";
+import clsx from "clsx";
 
 import {Container, Card} from "react-bootstrap";
 import Image from "components/Image";
@@ -8,7 +8,7 @@ import "./ImageCard.scss";
 
 const ImageCard = ({className, imageFileName, imageAlt, header, subheader, extraInfo}) => {
   return (
-    <Card className="image-card bg-dark text-white text-center">
+    <Card className={clsx("image-card bg-dark text-white text-center")}>
       <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader}/>
       <Card.ImgOverlay className="no-padding">
         <Container>
