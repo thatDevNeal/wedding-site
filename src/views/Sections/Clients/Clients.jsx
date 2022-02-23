@@ -32,7 +32,7 @@ const Clients = ({frontmatter}) => {
               </div>
               <h4 className="card__heading">
                 <span
-                  className="card__heading-span">The Welcome Party</span>
+                  className="card__heading-span">Welcome Party + Mehndi</span>
               </h4>
               <div className="card__details">
                 <ul>
@@ -54,7 +54,7 @@ const Clients = ({frontmatter}) => {
               </div>
               <h4 className="card__heading">
                 <span
-                  className="card__heading-span">Pithi + Grah Shantak</span>
+                  className="card__heading-span">Pithi + Grah Shanti</span>
               </h4>
               <div className="card__details">
                 <ul>
@@ -76,7 +76,7 @@ const Clients = ({frontmatter}) => {
               </div>
               <h4 className="card__heading">
                 <span
-                  className="card__heading-span">The Sangeet</span>
+                  className="card__heading-span">Sangeet Night</span>
               </h4>
               <div className="card__details">
                 <ul>
@@ -100,7 +100,7 @@ const Clients = ({frontmatter}) => {
               </div>
               <h4 className="card__heading">
                 <span
-                  className="card__heading-span">The Bharaat</span>
+                  className="card__heading-span">Bharaat</span>
               </h4>
               <div className="card__details">
                 <ul>
@@ -122,7 +122,7 @@ const Clients = ({frontmatter}) => {
               </div>
               <h4 className="card__heading">
                 <span
-                  className="card__heading-span">The Ceremony</span>
+                  className="card__heading-span">Wedding Ceremony</span>
               </h4>
               <div className="card__details">
                 <ul>
@@ -144,7 +144,7 @@ const Clients = ({frontmatter}) => {
               </div>
               <h4 className="card__heading">
                 <span
-                  className="card__heading-span">The Reception</span>
+                  className="card__heading-span">Reception Night</span>
               </h4>
               <div className="card__details">
                 <ul>
