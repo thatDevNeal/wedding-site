@@ -76,7 +76,7 @@ const Clients = ({frontmatter}) => {
               </div>
               <h4 className="card__heading">
                 <span
-                  className="card__heading-span">Sangeet Night</span>
+                  className="card__heading-span">Garba / Sangeet</span>
               </h4>
               <div className="card__details">
                 <ul>
@@ -144,7 +144,7 @@ const Clients = ({frontmatter}) => {
               </div>
               <h4 className="card__heading">
                 <span
-                  className="card__heading-span">Reception Night</span>
+                  className="card__heading-span">Reception</span>
               </h4>
               <div className="card__details">
                 <ul>
