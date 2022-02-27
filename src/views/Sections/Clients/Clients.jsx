@@ -18,14 +18,15 @@ const Clients = ({frontmatter}) => {
   const day1 = "Day 1, Saturday";
   const day2 = "Day 2, Sunday";
   const day3 = "Day 3, Monday";
+  const buttonTitle = "Wardrobe Planner!";
 
   return (<div className="outerWrapper">
     <PageSection className="bg-light" id={anchor}>
       <SectionHeader header={header} subheader={subheader}/>
       <Container fluid="sx">
-        <Row>
+        <Row className="justify-center">
           {/* event 1 */}
-          <Box sx={{minWidth: 275}} padding="1rem" id="card-1">
+          <Box sx={{minWidth: 300}} padding="1rem" id="card-1">
             <div className="card card__side card__side--front">
               <div className="card__picture">
                 &nbsp;
@@ -40,14 +41,14 @@ const Clients = ({frontmatter}) => {
                   <li>{day1}</li>
                   <li>5pm - 9pm EST</li>
                   <li>Location: Rooftop</li>
-                  <li><i>{dressCode}</i></li>
+                  {/* <li><i>{dressCode}</i></li> */}
                 </ul>
               </div>
-              <a href="#popup-1" className="btn btn--green">More Information!</a>
+              <a href="#popup-1" className="btn btn--green">{buttonTitle}</a>
             </div>
           </Box>
           {/* event 2 */}
-          <Box sx={{minWidth: 275}} padding="1rem" id="card-2">
+          <Box sx={{minWidth: 300}} padding="1rem" id="card-2">
             <div className="card card__side card__side--front">
               <div className="card__picture">
                 &nbsp;
@@ -62,14 +63,14 @@ const Clients = ({frontmatter}) => {
                   <li>{day2}</li>
                   <li>8am - 2pm EST</li>
                   <li>Location: Beach</li>
-                  <li><i>{dressCode}</i></li>
+                  {/* <li><i>{dressCode}</i></li> */}
                 </ul>
               </div>
-              <a href="#popup-2" className="btn btn--green">More Information!</a>
+              <a href="#popup-2" className="btn btn--green">{buttonTitle}</a>
             </div>
           </Box>
           {/* event 3 */}
-          <Box sx={{minWidth: 275}} padding="1rem" id="card-3">
+          <Box sx={{minWidth: 300}} padding="1rem" id="card-3">
             <div className="card card__side card__side--front">
               <div className="card__picture">
                 &nbsp;
@@ -84,16 +85,16 @@ const Clients = ({frontmatter}) => {
                   <li>{day2}</li>
                   <li>6pm - 10pm EST</li>
                   <li>Location: Rooftop</li>
-                  <li><i>{dressCode}</i></li>
+                  {/* <li><i>{dressCode}</i></li> */}
                 </ul>
               </div>
-              <a href="#popup-3" className="btn btn--green">More Information!</a>
+              <a href="#popup-3" className="btn btn--green">{buttonTitle}</a>
             </div>
           </Box>
         </Row>
-        <Row>
+        <Row className="justify-center">
           {/* event 4 */}
-          <Box sx={{minWidth: 275}} padding="1rem" id="card-4">
+          <Box sx={{minWidth: 300}} padding="1rem" id="card-4">
             <div className="card card__side card__side--front">
               <div className="card__picture">
                 &nbsp;
@@ -108,14 +109,14 @@ const Clients = ({frontmatter}) => {
                   <li>{day3}</li>
                   <li>9am - 10am EST</li>
                   <li>Location: Beach</li>
-                  <li><i>{dressCode}</i></li>
+                  {/* <li><i>{dressCode}</i></li> */}
                 </ul>
               </div>
-              <a href="#popup-4" className="btn btn--green">More Information!</a>
+              <a href="#popup-4" className="btn btn--green">{buttonTitle}</a>
             </div>
           </Box>
           {/* event 5 */}
-          <Box sx={{minWidth: 275}} padding="1rem" id="card-5">
+          <Box sx={{minWidth: 300}} padding="1rem" id="card-5">
             <div className="card card__side card__side--front">
               <div className="card__picture">
                 &nbsp;
@@ -130,14 +131,14 @@ const Clients = ({frontmatter}) => {
                   <li>{day3}</li>
                   <li>10am - 1pm EST</li>
                   <li>Location: Beach</li>
-                  <li><i>{dressCode}</i></li>
+                  {/* <li><i>{dressCode}</i></li> */}
                 </ul>
               </div>
-              <a href="#popup-5" className="btn btn--green">More Information!</a>
+              <a href="#popup-5" className="btn btn--green">{buttonTitle}</a>
             </div>
           </Box>
           {/* event 6 */}
-          <Box sx={{minWidth: 275}} padding="1rem" id="card-6">
+          <Box sx={{minWidth: 300}} padding="1rem" id="card-6">
             <div className="card card__side card__side--front">
               <div className="card__picture">
                 &nbsp;
@@ -152,10 +153,10 @@ const Clients = ({frontmatter}) => {
                   <li>{day3}</li>
                   <li>7pm - 12am EST</li>
                   <li>Location: Ballroom</li>
-                  <li><i>{dressCode}</i></li>
+                  {/* <li><i>{dressCode}</i></li> */}
                 </ul>
               </div>
-              <a href="#popup-6" className="btn btn--green">More Information!</a>
+              <a href="#popup-6" className="btn btn--green">{buttonTitle}</a>
             </div>
           </Box>
         </Row>
@@ -164,7 +165,7 @@ const Clients = ({frontmatter}) => {
     {/* Event 1 popup */}
     <div className="popup" id="popup-1">
       <div className="popup__content">
-        <div className="popup__right">
+        <div className="popup__full">
           <a href="#card-1" className="popup__close">&times;</a>
           <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
           <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read
