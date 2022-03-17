@@ -19,6 +19,8 @@ const Clients = ({frontmatter}) => {
   const day2 = "Day 2, Sunday";
   const day3 = "Day 3, Monday";
   const buttonTitle = "Wardrobe Planner!";
+  const subheaderPopup = "Dress code is here, but feel free to add your own spice!"
+  const tempBodyPopup = "Information will be up soon! We're finalizing it now :)"
 
   return (<div className="outerWrapper">
     <PageSection className="bg-light" id={anchor}>
@@ -101,7 +103,7 @@ const Clients = ({frontmatter}) => {
               </div>
               <h4 className="card__heading">
                 <span
-                  className="card__heading-span">Bharaat</span>
+                  className="card__heading-span">Baraat</span>
               </h4>
               <div className="card__details">
                 <ul>
@@ -167,10 +169,9 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__full">
           <a href="#card-1" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read
-            these terms before booking</h3>
-          <p className="popup__text">Body Text</p>
+          <h2 className="heading-secondary u-margin-bottom-small">Welcome Party / Mehndi</h2>
+          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-1" className="btn btn--green">Close</a>
         </div>
       </div>
@@ -180,10 +181,9 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__right">
           <a href="#card-2" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read
-            these terms before booking</h3>
-          <p className="popup__text">Body Text</p>
+          <h2 className="heading-secondary u-margin-bottom-small">Pithi + Grah Shanti</h2>
+          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-2" className="btn btn--green">Close</a>
         </div>
       </div>
@@ -193,10 +193,9 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__right">
           <a href="#card-3" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read
-            these terms before booking</h3>
-          <p className="popup__text">Body Text</p>
+          <h2 className="heading-secondary u-margin-bottom-small">Garba / Sangeet</h2>
+          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-3" className="btn btn--green">Close</a>
         </div>
       </div>
@@ -206,10 +205,9 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__right">
           <a href="#card-4" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read
-            these terms before booking</h3>
-          <p className="popup__text">Body Text</p>
+          <h2 className="heading-secondary u-margin-bottom-small">Baraat</h2>
+          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-4" className="btn btn--green">Close</a>
         </div>
       </div>
@@ -219,10 +217,9 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__right">
           <a href="#card-5" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read
-            these terms before booking</h3>
-          <p className="popup__text">Body Text</p>
+          <h2 className="heading-secondary u-margin-bottom-small">Wedding Ceremony</h2>
+          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-5" className="btn btn--green">Close</a>
         </div>
       </div>
@@ -232,10 +229,9 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__right">
           <a href="#card-6" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read
-            these terms before booking</h3>
-          <p className="popup__text">Body Text</p>
+          <h2 className="heading-secondary u-margin-bottom-small">Reception</h2>
+          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-6" className="btn btn--green">Close</a>
         </div>
       </div>
