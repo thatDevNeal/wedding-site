@@ -354,10 +354,13 @@ ORDER: Base + typography > general layout + grid > page layout > components
 .phone-secondary {
   @include respond(phone) {
     font-size: 1.8rem !important;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
   }
 }
 
 .phone-tertiary {
+  padding-bottom: 1rem;
   @include respond(phone) {
     font-size: 1.5rem !important;
   }
@@ -419,7 +422,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     padding: 3rem 5rem;
 
     @include respond(phone) {
-      padding: 3rem 1rem;
+      padding: 4rem 1rem;
     }
   }
 
@@ -431,7 +434,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   &__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-    text-align: left;
+    text-align: center;
 
     -moz-hyphens: auto;
     -ms-hyphens: auto;
@@ -440,6 +443,12 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
     @include respond(phone) {
       font-size: 1.2rem;
+      margin-bottom: 3rem;
+
+      -moz-hyphens: none;
+      -ms-hyphens: none;
+      -webkit-hyphens: none;
+      hyphens: none;
     }
   }
 
@@ -466,6 +475,10 @@ ORDER: Base + typography > general layout + grid > page layout > components
       display: inline-block;
       transition: all .2s;
       line-height: 1;
+      @include respond(phone) {
+        top: 0.9rem;
+        right: 1.3rem;
+      }
     }
 
     &:hover {
