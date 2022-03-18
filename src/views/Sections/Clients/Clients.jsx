@@ -169,8 +169,8 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__full">
           <a href="#card-1" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Welcome Party / Mehndi</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Welcome Party / Mehndi</h2>
+          <h3 className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
           <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-1" className="btn btn--green">Close</a>
         </div>
@@ -179,10 +179,10 @@ const Clients = ({frontmatter}) => {
     {/* Event 2 popup */}
     <div className="popup" id="popup-2">
       <div className="popup__content">
-        <div className="popup__right">
+        <div className="popup__full">
           <a href="#card-2" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Pithi + Grah Shanti</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Pithi + Grah Shanti</h2>
+          <h3 className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
           <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-2" className="btn btn--green">Close</a>
         </div>
@@ -191,10 +191,10 @@ const Clients = ({frontmatter}) => {
     {/* Event 3 popup */}
     <div className="popup" id="popup-3">
       <div className="popup__content">
-        <div className="popup__right">
+        <div className="popup__full">
           <a href="#card-3" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Garba / Sangeet</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Garba / Sangeet</h2>
+          <h3 className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
           <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-3" className="btn btn--green">Close</a>
         </div>
@@ -203,10 +203,10 @@ const Clients = ({frontmatter}) => {
     {/* Event 4 popup */}
     <div className="popup" id="popup-4">
       <div className="popup__content">
-        <div className="popup__right">
+        <div className="popup__full">
           <a href="#card-4" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Baraat</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Baraat</h2>
+          <h3 className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
           <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-4" className="btn btn--green">Close</a>
         </div>
@@ -215,10 +215,10 @@ const Clients = ({frontmatter}) => {
     {/* Event 5 popup */}
     <div className="popup" id="popup-5">
       <div className="popup__content">
-        <div className="popup__right">
+        <div className="popup__full">
           <a href="#card-5" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Wedding Ceremony</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Wedding Ceremony</h2>
+          <h3 className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
           <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-5" className="btn btn--green">Close</a>
         </div>
@@ -227,10 +227,10 @@ const Clients = ({frontmatter}) => {
     {/* Event 6 popup */}
     <div className="popup" id="popup-6">
       <div className="popup__content">
-        <div className="popup__right">
+        <div className="popup__full">
           <a href="#card-6" className="popup__close">&times;</a>
-          <h2 className="heading-secondary u-margin-bottom-small">Reception</h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Reception</h2>
+          <h3 className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
           <p className="popup__text">{tempBodyPopup}</p>
           <a href="#card-6" className="btn btn--green">Close</a>
         </div>

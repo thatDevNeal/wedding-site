@@ -98,7 +98,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
- 
+
     &--front {
       background-color: $color-white;
     }
@@ -351,6 +351,18 @@ ORDER: Base + typography > general layout + grid > page layout > components
 // END SECTION: ANIMATIONS
 
 // SECTION: POPUP
+.phone-secondary {
+  @include respond(phone) {
+    font-size: 1.8rem !important;
+  }
+}
+
+.phone-tertiary {
+  @include respond(phone) {
+    font-size: 1.5rem !important;
+  }
+}
+
 .popup {
   height: 100vh;
   width: 100%;
@@ -382,6 +394,10 @@ ORDER: Base + typography > general layout + grid > page layout > components
     opacity: 0;
     transform: translate(-50%, -50%) scale(.25);
     transition: all .5s .2s;
+
+    @include respond(phone) {
+      width: 100%;
+    }
   }
 
   &__left {
@@ -401,6 +417,10 @@ ORDER: Base + typography > general layout + grid > page layout > components
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
+
+    @include respond(phone) {
+      padding: 3rem 1rem;
+    }
   }
 
   &__img {
@@ -413,18 +433,14 @@ ORDER: Base + typography > general layout + grid > page layout > components
     margin-bottom: 4rem;
     text-align: left;
 
-    -moz-column-count: 2;
-    -moz-column-gap: 4rem; //1em = 14px;
-    -moz-column-rule: 1px solid $color-grey-light-2;
-
-    column-count: 2;
-    column-gap: 4rem; //1em = 14px;
-    column-rule: 1px solid $color-grey-light-2;
-
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+
+    @include respond(phone) {
+      font-size: 1.2rem;
+    }
   }
 
   //Open states
