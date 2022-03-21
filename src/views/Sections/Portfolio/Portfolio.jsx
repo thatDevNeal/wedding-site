@@ -208,13 +208,13 @@ const Portfolio = ({className, frontmatter}) => {
                   this blog on Shikha & Neals Proposal
               </a>!
               <br/>
-              <CopyToClipboard text="#ShikhaAndNeal2022">
+              <CopyToClipboard text="#ShikhaSealsTheNeal">
                 <button
                   type="button"
                   onClick={copiedToClipboard}
                   className="invisibleButton text-muted text-primary"
                 >
-                  <b>#ShikhaAndNeal2022</b>
+                  <b>#ShikhaSealsTheNeal</b>
                 </button>
               </CopyToClipboard>
               to share the memories!
@@ -232,7 +232,7 @@ const Portfolio = ({className, frontmatter}) => {
         <Notifications options={{zIndex: 200, top: '50px'}}/>
         <Row className="justify-content-center ceremony-header">
           <SectionHeader header={header} subheader={subheader}/>
-          <CopyToClipboard text="#ShikhaAndNeal2022">
+          <CopyToClipboard text="#ShikhaSealsTheNeal">
             <button
               onClick={copiedToClipboard}
               id="copy-to-clipboard"
@@ -241,7 +241,7 @@ const Portfolio = ({className, frontmatter}) => {
               size="xl"
               className="hashtag"
             >
-              #ShikhaAndNeal2022
+              #ShikhaSealsTheNeal
             </button>
           </CopyToClipboard>
         </Row>

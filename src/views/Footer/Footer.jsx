@@ -22,13 +22,13 @@ const Footer = ({frontmatter}) => {
       <Container>
         <Row className="align-items-center text-center">
           <Col>
-            <CopyToClipboard text="#ShikhaAndNeal2022">
+            <CopyToClipboard text="#ShikhaSealsTheNeal">
               <button
                 type="button"
                 onClick={copiedToClipboard}
                 className="invisibleButton text-muted text-primary"
               >
-                <b>#ShikhaAndNeal2022</b>
+                <b>#ShikhaSealsTheNeal</b>
               </button>
             </CopyToClipboard>
           </Col>
