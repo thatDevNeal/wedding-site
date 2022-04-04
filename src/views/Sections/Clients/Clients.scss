@@ -370,6 +370,15 @@ ORDER: Base + typography > general layout + grid > page layout > components
   color: #0b2e13 !important;
 }
 
+.popup-font-family {
+  font-family: 'Lora', 'serif';
+  font-weight: normal;
+
+  &__primary {
+    font-weight: bold;
+  }
+}
+
 .popup {
   height: 100vh;
   width: 100%;

@@ -19,6 +19,8 @@ const Clients = ({frontmatter}) => {
   const day3 = "Day 3, Monday";
   const buttonTitle = "Wardrobe Planner!";
   const subheaderPopup = "Dress code is here, but feel free to add your own spice!"
+  const modalHeaderPrimary = "heading-secondary phone-secondary u-margin-bottom-small popup-font-family__primary"
+  const modalHeaderSecondary = "heading-tertiary phone-tertiary u-margin-bottom-small popup-font-family"
 
   return (<div className="outerWrapper">
     <PageSection className="bg-light" id={anchor}>
@@ -166,10 +168,10 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__full">
           <a href="#card-1" className="popup__close">&times;</a>
-          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Welcome Party +
+          <h2 className={modalHeaderPrimary}>Welcome Party +
             Mehndi</h2>
           <h3
-            className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+            className={modalHeaderSecondary}>{subheaderPopup}</h3>
           <p className="popup__text">Attire: American Semi-Formal (Blazers & Jeans, Dress Pants &
             Shirt, etc!) for Men and Indo Western
             for Women.<br/> <i>Join us for cocktails & appetizers to kick off the wedding
@@ -193,10 +195,10 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__full">
           <a href="#card-2" className="popup__close">&times;</a>
-          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Grah
+          <h2 className={modalHeaderPrimary}>Grah
             Shanti + Pithi</h2>
           <h3
-            className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+            className={modalHeaderSecondary}>{subheaderPopup}</h3>
           <p className="popup__text">Attire: Indian Traditional <br/> <i>Come dressed in yellow hues
             and give the bride and groom their pre-wedding glow!</i><br/>It
             is <b><u>not</u></b> required for guests to change for the Pithi.</p>
@@ -209,10 +211,10 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__full">
           <a href="#card-3" className="popup__close">&times;</a>
-          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Garba /
+          <h2 className={modalHeaderPrimary}>Garba /
             Sangeet</h2>
           <h3
-            className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+            className={modalHeaderSecondary}>{subheaderPopup}</h3>
           {/* <p className="popup__text">{tempBodyPopup}</p> */}
           <p className="popup__text">Attire: Indian Traditional <br/><i>Get ready to dance the night
             away with Garba, Bhangra, and some
@@ -227,9 +229,9 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__full">
           <a href="#card-4" className="popup__close">&times;</a>
-          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Baraat</h2>
+          <h2 className={modalHeaderPrimary}>Baraat</h2>
           <h3
-            className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+            className={modalHeaderSecondary}>{subheaderPopup}</h3>
           <p className="popup__text">Attire: Please see Wedding Ceremony dress code! <br/><i>Neal
             make
             his entrance like he&apos;s a maharaja mounted on a
@@ -245,10 +247,10 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__full">
           <a href="#card-5" className="popup__close">&times;</a>
-          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Wedding
+          <h2 className={modalHeaderPrimary}>Wedding
             Ceremony</h2>
           <h3
-            className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+            className={modalHeaderSecondary}>{subheaderPopup}</h3>
           {/* <p className="popup__text">{tempBodyPopup}</p> */}
           <p className="popup__text">Attire: Indian Traditional<br/><i>Come enjoy a beautiful
             morning by the beach as the bride and groom Tie the Knot!</i></p>
@@ -262,9 +264,9 @@ const Clients = ({frontmatter}) => {
       <div className="popup__content">
         <div className="popup__full">
           <a href="#card-6" className="popup__close">&times;</a>
-          <h2 className="heading-secondary phone-secondary u-margin-bottom-small">Reception</h2>
+          <h2 className={modalHeaderPrimary}>Reception</h2>
           <h3
-            className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
+            className={modalHeaderSecondary}>{subheaderPopup}</h3>
           {/* <p className="popup__text">{tempBodyPopup}</p> */}
           <p className="popup__text">Attire: <a
             href="https://media0.giphy.com/media/fSRsJdfPWnQDs62Pvw/200.gif" target="_blank"
