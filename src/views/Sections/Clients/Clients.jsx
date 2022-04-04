@@ -19,8 +19,8 @@ const Clients = ({frontmatter}) => {
   const day3 = "Day 3, Monday";
   const buttonTitle = "Wardrobe Planner!";
   const subheaderPopup = "Dress code is here, but feel free to add your own spice!"
-  const modalHeaderPrimary = "heading-secondary phone-secondary u-margin-bottom-small popup-font-family__primary"
-  const modalHeaderSecondary = "heading-tertiary phone-tertiary u-margin-bottom-small popup-font-family"
+  const modalHeaderPrimary = "heading-secondary phone-secondary u-margin-bottom-small popup-font-family popup-font-family__primary"
+  const modalHeaderSecondary = "heading-tertiary phone-tertiary u-margin-bottom-small popup-font-family popup-font-family__secondary"
 
   return (<div className="outerWrapper">
     <PageSection className="bg-light" id={anchor}>

@@ -372,10 +372,13 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
 .popup-font-family {
   font-family: 'Lora', 'serif';
-  font-weight: normal;
 
   &__primary {
     font-weight: bold;
+  }
+
+  &__secondary {
+    font-weight: normal;
   }
 }
 
