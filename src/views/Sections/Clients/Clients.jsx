@@ -233,7 +233,7 @@ const Clients = ({frontmatter}) => {
           <h3
             className={modalHeaderSecondary}>{subheaderPopup}</h3>
           <p className="popup__text">Attire: Please see Wedding Ceremony dress code! <br/><i>Neal
-            make
+            makes
             his entrance like he&apos;s a maharaja mounted on a
             horse,
             loud music playing, and his family & friends bustin out their hottest dance moves to
