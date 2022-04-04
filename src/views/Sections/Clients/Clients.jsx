@@ -198,8 +198,8 @@ const Clients = ({frontmatter}) => {
           <h3
             className="heading-tertiary phone-tertiary u-margin-bottom-small">{subheaderPopup}</h3>
           <p className="popup__text">Attire: Indian Traditional <br/> <i>Come dressed in yellow hues
-            and give the bride and groom their pre-wedding glow!</i><br/> <br/>It
-            is <b>not</b> required for guests to change for the Pithi.</p>
+            and give the bride and groom their pre-wedding glow!</i><br/>It
+            is <b><u>not</u></b> required for guests to change for the Pithi.</p>
           <a href="#card-2" className="btn btn--green">Close</a>
         </div>
       </div>
