@@ -173,7 +173,7 @@ const Clients = ({frontmatter}) => {
           <h3
             className={modalHeaderSecondary}>{subheaderPopup}</h3>
           <p className="popup__text">Attire: American Semi-Formal (Blazers & Jeans, Dress Pants &
-            Shirt, etc!) for Men and Indo Western
+            Shirt, Pants & Kurta, etc!) for Men and Indo Western
             for Women.<br/> <i>Join us for cocktails & appetizers to kick off the wedding
               festivities with a fiesta!</i></p>
           {/* <div className="popup__split"> */}
