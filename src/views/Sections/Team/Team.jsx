@@ -30,6 +30,9 @@ const Team = ({className, frontmatter}) => {
             here: <a href="https://www.amazon.com/wedding/share/ShikhaAndNeal
 " target="_blank" rel="noopener noreferrer"><b><u>Our Wedding
             Registry!</u></b></a>
+            <br/><br/>
+            These are just some ideas, but please feel free to gift whatever you like! We appreciate
+            anything and everything. To us, your journey to celebrate with us is enough of a gift!
           </p>
         </Col>
       </Row>

@@ -6,7 +6,7 @@ import {CopyToClipboard} from "react-copy-to-clipboard";
 import Notifications, {notify} from "react-notify-toast";
 
 
-import {Row, Button} from "react-bootstrap";
+import {Row} from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
 import Youtube from "content/assets/images/portfolio/Youtube.jpg";
