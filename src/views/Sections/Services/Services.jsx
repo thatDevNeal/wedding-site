@@ -46,6 +46,13 @@ const Services = ({className, frontmatter}) => {
             We hope to see you soon, whether its at the events or down the road when we can get
             together a little bit easier.
             We look forward to seeing you!
+            <br/>
+            <br/>
+            <b>Please note:</b> Reservations must be made through our discounted group block in
+            order to
+            attend wedding events. Additional charges will be required to receive wedding wristband
+            required to attend wedding events if not booking through our group block with Shaadi
+            Destinations (ie - using Expedia or even on Hard Rock&apos;s website is not permitted).
           </p> {/* paragraph3 */}
           <p className="paragraph4">
             <br/>Sending our love,
