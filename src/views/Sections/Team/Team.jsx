@@ -33,6 +33,9 @@ const Team = ({className, frontmatter}) => {
             <br/><br/>
             These are just some ideas, but please feel free to gift whatever you like! We appreciate
             anything and everything. To us, your journey to celebrate with us is enough of a gift!
+            <br/><br/>
+            Please understand that gifts are not necessary and are not expected. Your blessing is
+            all we ask for.
           </p>
         </Col>
       </Row>
