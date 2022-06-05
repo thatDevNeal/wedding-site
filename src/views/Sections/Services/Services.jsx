@@ -26,13 +26,19 @@ const Services = ({className, frontmatter}) => {
             have planned to get married in Cancun, Mexico!
           </p> {/* paragraph1 */}
           <p className="paragraph2">
-            <b>We will provide a link to book your hotel at the resort and safe transportation from
-              the
-              airport to the resort (round trip) in the near future. <i>Please check here time to
-                time for updates!</i></b> Also, please note that these rooms
-            have
-            a refund policy, but they are reserved until mid-June of 2022. This means there is time
-            for everyone to book their rooms.
+            <b>Resort bookings <i>MUST</i> be made through the booking link provided here: <a
+              href="https://www.shaadidestinations.com/shikha-and-neal" target="_blank"
+              rel="noopener noreferrer"><u>Shikha and Neal
+              Resort Booking</u></a>.</b> You may <b><i><u>only</u></i></b> attend the wedding
+            events when
+            booking your
+            resort stay through
+            the link we have provided. Please be sure to read the &quot;<i>Payment and Cancellation
+            Policy</i>&rdquo; section within our booking link for more information.
+            Also, please note that these rooms have a refund policy, but they are reserved until
+            the beginning of September, 2022. This means there is time for everyone to coordinate
+            and book their
+            rooms, there is no need to rush! <br/>
             <b><i> Please be sure your passport is valid for at least 6 months from the date of our
               wedding.
               It is <a
@@ -52,7 +58,8 @@ const Services = ({className, frontmatter}) => {
             order to
             attend wedding events. Additional charges will be required to receive wedding wristband
             required to attend wedding events if not booking through our group block with Shaadi
-            Destinations (ie - using Expedia or even on Hard Rock&apos;s website is not permitted).
+            Destinations (ie - using Expedia, random websites, or even Hard Rock&apos;s website
+            is <b>not</b> permitted).
           </p> {/* paragraph3 */}
           <p className="paragraph4">
             <br/>Sending our love,
