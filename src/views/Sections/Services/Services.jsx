@@ -59,7 +59,11 @@ const Services = ({className, frontmatter}) => {
             attend wedding events. Additional charges will be required to receive wedding wristband
             required to attend wedding events if not booking through our group block with Shaadi
             Destinations (ie - using Expedia, random websites, or even Hard Rock&apos;s website
-            is <b>not</b> permitted).
+            is <b>not</b> permitted). <b>If you need to make an edit later on</b>, please reply to
+            the automated email you receive with your change request. If you have any questions,
+            please email them to support@shaadidestinations.com with subject ‘<i>Shikha and Neal</i>’
+            or,
+            of course, feel free to message either Shikha or Neal.
           </p> {/* paragraph3 */}
           <p className="paragraph4">
             <br/>Sending our love,
