@@ -65,6 +65,11 @@ const Services = ({className, frontmatter}) => {
             Neal</i>’
             or,
             of course, feel free to message either Shikha or Neal.
+            <br/>
+            <br/>
+            <b><i>When checking out of the resort, if you have a car pickup, please checkout half
+              hour before the pickup time so you are not late for your car pickup. Checkout can take
+              30 minutes sometimes depending on the wait.</i></b>
           </p> {/* paragraph3 */}
           <p className="paragraph4">
             <br/>Sending our love,
