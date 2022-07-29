@@ -61,7 +61,8 @@ const Services = ({className, frontmatter}) => {
             Destinations (ie - using Expedia, random websites, or even Hard Rock&apos;s website
             is <b>not</b> permitted). <b>If you need to make an edit later on</b>, please reply to
             the automated email you receive with your change request. If you have any questions,
-            please email them to support@shaadidestinations.com with subject ‘<i>Shikha and Neal</i>’
+            please email them to <i>support@shaadidestinations.com</i> with subject ‘<i>Shikha and
+            Neal</i>’
             or,
             of course, feel free to message either Shikha or Neal.
           </p> {/* paragraph3 */}
