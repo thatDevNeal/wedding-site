@@ -41,7 +41,7 @@ const Clients = ({frontmatter}) => {
                 <ul>
                   <li>November 12, 2022</li>
                   <li>{day1}</li>
-                  <li>5pm - 9pm EST</li>
+                  <li>5pm - 9pm</li>
                   <li>Location: Rooftop</li>
                 </ul>
               </div>
@@ -62,7 +62,7 @@ const Clients = ({frontmatter}) => {
                 <ul>
                   <li>November 13, 2022</li>
                   <li>{day2}</li>
-                  <li>8am - 2pm EST</li>
+                  <li>8am - 2pm</li>
                   <li>Location: Beach</li>
                   {/* <li><i>{dressCode}</i></li> */}
                 </ul>
@@ -84,7 +84,7 @@ const Clients = ({frontmatter}) => {
                 <ul>
                   <li>November 13, 2022</li>
                   <li>{day2}</li>
-                  <li>6pm - 10pm EST</li>
+                  <li>6pm - 10pm</li>
                   <li>Location: Rooftop</li>
                   {/* <li><i>{dressCode}</i></li> */}
                 </ul>
@@ -108,7 +108,7 @@ const Clients = ({frontmatter}) => {
                 <ul>
                   <li>November 14, 2022</li>
                   <li>{day3}</li>
-                  <li>9am - 10am EST</li>
+                  <li>8:30am - 10am</li>
                   <li>Location: Beach</li>
                   {/* <li><i>{dressCode}</i></li> */}
                 </ul>
@@ -130,7 +130,7 @@ const Clients = ({frontmatter}) => {
                 <ul>
                   <li>November 14, 2022</li>
                   <li>{day3}</li>
-                  <li>10am - 1pm EST</li>
+                  <li>10am - 1pm</li>
                   <li>Location: Beach</li>
                   {/* <li><i>{dressCode}</i></li> */}
                 </ul>
@@ -152,7 +152,7 @@ const Clients = ({frontmatter}) => {
                 <ul>
                   <li>November 14, 2022</li>
                   <li>{day3}</li>
-                  <li>7pm - 12am EST</li>
+                  <li>7pm - 12am</li>
                   <li>Location: Ballroom</li>
                   {/* <li><i>{dressCode}</i></li> */}
                 </ul>
@@ -176,16 +176,6 @@ const Clients = ({frontmatter}) => {
             Shirt, Pants & Kurta, etc!) for Men and Indo Western
             for Women.<br/> <i>Join us for cocktails & appetizers to kick off the wedding
               festivities with a fiesta!</i></p>
-          {/* <div className="popup__split"> */}
-          {/*   <div className="popup__left"> */}
-          {/*     <h3>Mens</h3> */}
-          {/*     <p className="popup__text">{tempBodyPopup}</p> */}
-          {/*   </div> */}
-          {/*   <div className="popup__right"> */}
-          {/*     <h3>Women</h3> */}
-          {/*     <p className="popup__text">Indo Western</p> */}
-          {/*   </div> */}
-          {/* </div> */}
           <a href="#card-1" className="btn btn--green">Close</a>
         </div>
       </div>
