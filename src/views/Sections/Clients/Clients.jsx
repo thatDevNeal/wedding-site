@@ -42,7 +42,7 @@ const Clients = ({frontmatter}) => {
                   <li>November 12, 2022</li>
                   <li>{day1}</li>
                   <li>5pm - 9pm</li>
-                  <li>Location: Rooftop</li>
+                  <li>Location: Garden Terrace</li>
                 </ul>
               </div>
               <a href="#popup-1" className="btn btn--green">{buttonTitle}</a>
@@ -62,8 +62,8 @@ const Clients = ({frontmatter}) => {
                 <ul>
                   <li>November 13, 2022</li>
                   <li>{day2}</li>
-                  <li>8am - 2pm</li>
-                  <li>Location: Beach</li>
+                  <li>9am - 1pm</li>
+                  <li>Location: Breeze Terrace</li>
                   {/* <li><i>{dressCode}</i></li> */}
                 </ul>
               </div>
@@ -85,7 +85,7 @@ const Clients = ({frontmatter}) => {
                   <li>November 13, 2022</li>
                   <li>{day2}</li>
                   <li>6pm - 10pm</li>
-                  <li>Location: Rooftop</li>
+                  <li>Location: Sunset Terrace</li>
                   {/* <li><i>{dressCode}</i></li> */}
                 </ul>
               </div>
@@ -109,7 +109,7 @@ const Clients = ({frontmatter}) => {
                   <li>November 14, 2022</li>
                   <li>{day3}</li>
                   <li>8:30am - 10am</li>
-                  <li>Location: Beach</li>
+                  <li>Location: Main Entrance of Hard Rock</li>
                   {/* <li><i>{dressCode}</i></li> */}
                 </ul>
               </div>
